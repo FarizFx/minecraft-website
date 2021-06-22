@@ -37,7 +37,7 @@ h1 {font-size: 50px;margin-bottom: 5px;}h2 {font-size: 45px;margin-bottom: 5px;}
 p {font-size: 15px;}
 
 .parallax {
-    height: 100%; 
+    height: 100vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@ a:hover {
 
 .topnav {
 	list-style-type: none;
-    overflow: hidden;
+    overflow: auto;
     background-color: #333;
     box-shadow: 0px 6px 13px -7px rgba(0,0,0,0.20);
     transition: all .2s ease-in;
@@ -513,10 +513,10 @@ a:hover {
 		margin: 0 auto;
 	}
 
-	#store .store-items {
+	/* #store .store-items {
 		max-width: 100%;
 		margin: 0 auto;
-	}
+	} */
 
 	#contact .tab {
 		max-width: 100%;
@@ -525,15 +525,21 @@ a:hover {
 }
 
 #head {
-	background-image: url("https://i.imgur.com/yKdjGvw.png"); /* Change this to your own image */
+	background-image: url("../home.gif"); /* Change this to your own image */
 	margin: 0;
 	padding: 222px 0px 222px 0px;
 	text-align: center;
 	color: white;
 }
 
+#head:hover {
+	background-color: rgb(160, 160, 160);
+	background-blend-mode: multiply;
+	transition: background .5s;
+}
+
 #head-about {
-	background-image: url("https://i.imgur.com/rcVnN5k.png"); /* Change this to your own image */
+	background-image: url("../home.gif"); /* Change this to your own image */
 	margin: 0;
 	padding: 222px 0px 222px 0px;
 	text-align: center;
@@ -565,7 +571,7 @@ a:hover {
 }
 
 #head-status {
-	background-image: url("https://i.imgur.com/MljFIMA.png"); /* Change this to your own image */
+	background-image: url("../home.gif"); /* Change this to your own image */
 	margin: 0;
 	padding: 222px 0px 222px 0px;
 	text-align: center;
@@ -784,28 +790,33 @@ footer {
 	padding: 17px 15px;
 }
 
-#status {
+#server-status {
+	max-width: 50%;
+	margin: 3rem auto;
+	padding: auto;
+}
+
+.isOnline {
 	padding-top: 66px;
 	padding-bottom: 66px;
 	text-align: center;
     border: 1px solid #e5e5e5;
     background-color: #f7f7f7;
     border-radius: 15px;
-    padding: 12px 15px;
     max-width: 960px;
     margin: 20px auto;
 }
 
 #store .price {
-	font-size: 44px;
+	font-size: 30px;
 	font-weight: 700;
 	margin-bottom: 7px;
 }
 
-#store {
-	padding-top: 66px;
-	padding-bottom: 66px;
-}
+/* #store {
+	margin: 0;
+	padding: 0;
+} */
 
 #store .item {
 	margin-bottom: 22px;

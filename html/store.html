@@ -18,6 +18,7 @@
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css">
 	<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.js">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
@@ -28,101 +29,176 @@
 	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button> 
 	
 	<!-- Navbar -->
-	<div class="topnav" id="myTopnav">
-		<div class="max-width">
-			  <a href="index.html">Home</a>
-			  <a href="about.html">About</a>
-			  <a href="gamemodes.html">Gamemodes</a>
-			  <a class="active" href="store.html">Store</a>
-			  <a href="vote.html">Vote</a>
-			  <a href="staff.html">Staff</a>
-			  <a href="status.html">Status</a>
-			  <a href="#">Forum</a>  
-			  <a href="contact.html">Contact</a>
-		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">NEXOLANDCRAFT</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="gamemodes.html">Gamemodes</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="store.html">Store</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="vote.html">Vote</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="staff.html">Staff</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="status.html">Status</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="#">Forum</a> 
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+						<!-- <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a> -->
+				</ul>
+			</div>
 		</div>
-	</div>
+	</nav>
 	<!-- End Navbar -->
 
 	<!-- Header (Banner) -->
-	<header id="head-store" class="parallax">
-		<h1>RANK LIST</h1>
-		<h3>Nexolandcraft.com</h3>
+	<header id="head" class="parallax">
+		<h1>STORE</h1>
+		<h3>DAFTAR LIST HARGA RANK</h3>
 	</header>
 	<!-- End Header -->
 
 	<section id="store">
-		<div class="row store-items">
-			<div class="col-md item">
-				<p class="big-col">&nbsp;</p>
-				<div class="big-col-text">
-					<img class="res-img-sm" src="elite.jpg"> <br /><br />
-					<h2>ELITE</h2>
-					<p>Lifetime</p><br />
-					<p>Includes:</p>
-					<p>- Heal<br>- Feed</p><br />
-					<p class="price">5.000 IDR</p>
-					<a class="button" href="https://wa.me/6285894457615/?text=hi+kak+saya+ingin+beli+rank+elite">Buy here</a>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="d-flex justify-content-center">
+						<div class="card mt-5 mb-5">
+							<div class="card-header" style="font-weight: bold; text-align: center;">E L I T E</div>
+								<img class="card-img-top" src="elite.jpg" style="width: 20rem;">
+								<div class="card-body">
+									<p style="text-align: center;">
+										<b>Keuntungan :</b> </br>
+										&#11088; Heal &#11088; </br>
+										&#11088; Feed &#11088;
+										</br> </br> </br>
+									</p>
+									<div class="d-grid gap-2">
+										<a role="button" class="btn btn-primary" href="https://wa.me/6285894457615/?text=hi+kak+saya+ingin+beli+rank+elite">Buy</a>
+									</div>
+								</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-md item">
-				<p class="big-col">&nbsp;</p>
-				<div class="big-col-text">
-					<img class="res-img-sm" src="vip.jpg"> <br /><br />
-					<h2>VIP</h2>
-					<p>Lifetime</p><br />
-					<p>Includes:</p>
-					<p>- Heal<br>- Feed<br>- Fly</p><br />
-					<p class="price">20.000 IDR</p>
-					<a class="button" href="example-link.html">Buy here</a>
+				
+				<div class="col d-flex justify-content-center">
+					<div class="card mt-5 mb-5" style="width: 20rem;">
+						<div class="card-header" style="font-weight: bold; text-align: center;">V I P</div>
+							<img class="card-img-top" src="vip.jpg" style="width: 20rem;">
+							<div class="card-body">
+								<p style="text-align: center;">
+									<b>Keuntungan :</b> </br>
+									&#11088; Heal &#11088; </br>
+									&#11088; Feed &#11088; </br>
+									&#11088; Fly &#11088;
+									</br> </br>
+								</p>
+								<div class="d-grid gap-2">
+									<a role="button" class="btn btn-primary" href="https://wa.me/6285894457615/?text=hi+kak+saya+ingin+beli+rank+elite">Buy</a>
+								</div>
+							</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-md item">
-				<p class="big-col">&nbsp;</p>
-				<div class="big-col-text">
-					<img class="res-img-sm" src="vvip.jpg"> <br /><br />
-					<h2>VIP+</h2>
-					<p>Lifetime</p><br />
-					<p>Includes:</p>
-					<p>- Heal<br>- Feed<br>- Fly<br>- Repair</p><br />
-					<p class="price">30.000 IDR</p>
-					<a class="button" href="example-link.html">Buy here</a>
-			    </div>
-			</div>
-			<div class="col-md item">
-				<p class="big-col">&nbsp;</p>
-				<div class="big-col-text">
-					<img class="res-img-sm" src="mvp.jpg"> <br /><br />
-					<h2>MVP</h2>
-					<p>Lifetime</p><br />
-					<p>Includes:</p>
-					<p>- Heal<br>- Feed<br>- Fly<br>- Repair<br>- Vanish</p><br />
-					<p class="price">45.000 IDR</p>
-					<a class="button" href="example-link.html">Buy here</a>
-			    </div>
-			</div>
-			<div class="col-md item">
-				<p class="big-col">&nbsp;</p>
-				<div class="big-col-text">
-					<img class="res-img-sm" src="legend.jpg"> <br /><br />
-					<h2>LEGEND</h2>
-					<p>Lifetime</p><br />
-					<p>Includes:</p>
-					<p>- Heal<br>- Feed<br>- Fly<br>- Repair<br>Vanish<br>Size</p><br />
-					<p class="price">70.000 IDR</p>
-					<a class="button" href="example-link.html">Buy here</a>
-			    </div>
-			</div>
-			<div class="col-md item">
-				<p class="big-col">&nbsp;</p>
-				<div class="big-col-text">
-					<img class="res-img-sm" src="premium.jpg"> <br /><br />
-					<h2>PREMIUM</h2>
-					<p>Lifetime</p><br />
-					<p>Includes:</p>
-					<p>- Heal<br>- Feed<br>- Fly<br>- Repair<br>Vanish<br>Size<br>Cosmetics</p><br />
-					<p class="price">140.000 IDR</p>
-					<a class="button" href="example-link.html">Buy here</a>
+
+				<div class="col d-flex justify-content-center">
+					<div class="card mt-5 mb-5" style="width: 20rem;">
+						<div class="card-header" style="font-weight: bold; text-align: center;">V I P +</div>
+							<img class="card-img-top" src="vvip.jpg" style="width: 20rem;">
+							<div class="card-body">
+								<p style="text-align: center;">
+									<b>Keuntungan :</b> </br>
+									&#11088; Heal &#11088; </br>
+									&#11088; Feed &#11088; </br>
+									&#11088; Fly &#11088; </br>
+									&#11088; Repair &#11088;
+								</p>
+								<div class="d-grid gap-2">
+									<a role="button" class="btn btn-primary" href="https://wa.me/6285894457615/?text=hi+kak+saya+ingin+beli+rank+elite">Buy</a>
+								</div>
+							</div>
+					</div>
+				</div>
+
+				<div class="col d-flex justify-content-center">
+					<div class="card mt-5 mb-5" style="width: 20rem;">
+						<div class="card-header" style="font-weight: bold; text-align: center;">M V P</div>
+							<img class="card-img-top" src="mvp.jpg" style="width: 20rem;">
+							<div class="card-body">
+								<p style="text-align: center;">
+									<b>Keuntungan :</b> </br>
+									&#11088; Heal &#11088; </br>
+									&#11088; Feed &#11088; </br>
+									&#11088; Fly &#11088; </br>
+									&#11088; Repair &#11088; </br>
+									&#11088; Vanish &#11088;
+									</br> </br> </br>
+								</p>
+								<div class="d-grid gap-2">
+									<a role="button" class="btn btn-primary" href="https://wa.me/6285894457615/?text=hi+kak+saya+ingin+beli+rank+elite">Buy</a>
+								</div>
+							</div>
+					</div>
+				</div>
+
+				<div class="col d-flex justify-content-center">
+					<div class="card mt-5 mb-5" style="width: 20rem;">
+						<div class="card-header" style="font-weight: bold; text-align: center;">L E G E N D</div>
+							<img class="card-img-top" src="legend.jpg" style="width: 20rem;">
+							<div class="card-body">
+								<p style="text-align: center;">
+									<b>Keuntungan :</b> </br>
+									&#11088; Heal &#11088; </br>
+									&#11088; Feed &#11088; </br>
+									&#11088; Fly &#11088; </br>
+									&#11088; Repair &#11088; </br>
+									&#11088; Vanish &#11088; </br>
+									&#11088; Size &#11088;
+									</br> </br>
+								</p>
+								<div class="d-grid gap-2">
+									<a role="button" class="btn btn-primary" href="https://wa.me/6285894457615/?text=hi+kak+saya+ingin+beli+rank+elite">Buy</a>
+								</div>
+							</div>
+					</div>
+				</div>
+
+				<div class="col d-flex justify-content-center">
+					<div class="card mt-5 mb-5" style="width: 20rem;">
+						<div class="card-header" style="font-weight: bold; text-align: center;">P R E M I U M</div>
+							<img class="card-img-top" src="premium.jpg" style="width: 20rem;">
+							<div class="card-body">
+								<p style="text-align: center;">
+									<b>Keuntungan :</b> </br>
+									&#11088; Heal &#11088; </br>
+									&#11088; Feed &#11088; </br>
+									&#11088; Fly &#11088; </br>
+									&#11088; Repair &#11088; </br>
+									&#11088; Vanish &#11088; </br>
+									&#11088; Size &#11088; </br>
+									&#11088; Cosmetic &#11088;
+								</p>
+								<div class="d-grid gap-2">
+									<a role="button" class="btn btn-primary" href="https://wa.me/6285894457615/?text=hi+kak+saya+ingin+beli+rank+elite">Buy</a>
+								</div>
+							</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -164,6 +240,8 @@
 	    document.documentElement.scrollTop = 0;
 	}
 	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 </body>
 </html>

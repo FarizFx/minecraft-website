@@ -36,6 +36,7 @@
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css">
 	<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.js">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
@@ -45,25 +46,50 @@
 
 	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button> 
 
-	<div class="topnav" id="myTopnav">
-		<div class="max-width">
-			  <a class="active" href="index.html">Home</a>
-			  <a href="about.html">About</a>
-			  <a href="gamemodes.html">Gamemodes</a>
-			  <a href="store.html">Store</a>
-			  <a href="vote.html">Vote</a>
-			  <a href="staff.html">Staff</a>
-			  <a href="status.html">Status</a>
-			  <a href="#">Forum</a> 
-			  <a href="contact.html">Contact</a>
-		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	<!-- <div class="topnav" id="myTopnav"> -->
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">NEXOLANDCRAFT</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="gamemodes.html">Gamemodes</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="store.html">Store</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="vote.html">Vote</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="staff.html">Staff</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="status.html">Status</a>
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="#">Forum</a> 
+					</li>
+					<li class="nav-item pe-4">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+						<!-- <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a> -->
+				</ul>
+			</div>
 		</div>
-	</div>
+	</nav>
+	<!-- </div> -->
 
 	<!-- Header (Banner) -->
 	<header id="head" class="parallax">
-		<h1>NEXOLANDCRAFT.COM</h1>
-		<h3>SEBUAH MCPE SERVER</h3>
+		<h1>MINECRAFT POCKET EDITION COMMUNITY</h1>
+		<a role="button" class="btn btn-outline-primary btn-lg" style="font-weight: bold;" href="https://linktr.ee/nexolandcraft">JOIN US</a>
 	</header>
 	<!-- End Header -->
 
@@ -97,14 +123,14 @@
 	</footer>
 
 	<script>
-	function myFunction() {
-	    var x = document.getElementById("myTopnav");
-	    if (x.className === "topnav") {
-	        x.className += " responsive";
-	    } else {
-	        x.className = "topnav";
-	    }
-	}
+	// function myFunction() {
+	//     var x = document.getElementById("myTopnav");
+	//     if (x.className === "topnav") {
+	//         x.className += " responsive";
+	//     } else {
+	//         x.className = "topnav";
+	//     }
+	// }
 	</script>
 
 	<script>
@@ -125,6 +151,8 @@
 	    document.documentElement.scrollTop = 0;
 	}
 	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 </body>
 </html>
