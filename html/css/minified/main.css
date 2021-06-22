@@ -21,56 +21,56 @@ a:hover{text-decoration:none;color:#1670aa;transition:all .2s ease-in;}
 }
 @media screen and (min-width:800px){div .max-width{max-width:60%;margin:0 auto;box-shadow:none;}
 }
-#head{background-image:url("https://i.imgur.com/yKdjGvw.png");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
+#head{background-image:url("../../home.gif");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
 @media screen and (min-width:800px){#head h1{font-size:55px;font-weight:700;text-transform:uppercase;}
 #head h3{font-size:22px;text-transform:uppercase;}
 }
 @media screen and (max-width:799px){#head h1{font-size:32px;font-weight:700;text-transform:uppercase;}
 #head h3{font-size:15px;text-transform:uppercase;}
 }
-#head-about{background-image:url("https://i.imgur.com/rcVnN5k.png");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
+#head-about{background-image:url("../../home.gif");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
 @media screen and (min-width:800px){#head-about h1{font-size:55px;font-weight:700;text-transform:uppercase;}
 #head-about h3{font-size:22px;text-transform:uppercase;}
 }
 @media screen and (max-width:799px){#head-about h1{font-size:32px;font-weight:700;text-transform:uppercase;}
 #head-about h3{font-size:15px;text-transform:uppercase;}
 }
-#head-gamemodes{background-image:url("https://i.imgur.com/5tqD80U.png");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
+#head-gamemodes{background-image:url("../../home.gif");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
 @media screen and (min-width:800px){#head-gamemodes h1{font-size:55px;font-weight:700;text-transform:uppercase;}
 #head-gamemodes h3{font-size:22px;text-transform:uppercase;}
 }
 @media screen and (max-width:799px){#head-gamemodes h1{font-size:32px;font-weight:700;text-transform:uppercase;}
 #head-gamemodes h3{font-size:15px;text-transform:uppercase;}
 }
-#head-vote{background-image:url("https://i.imgur.com/I3FQYGs.png");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
+#head-vote{background-image:url("../../home.gif");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
 @media screen and (min-width:800px){#head-vote h1{font-size:55px;font-weight:700;text-transform:uppercase;}
 #head-vote h3{font-size:22px;text-transform:uppercase;}
 }
 @media screen and (max-width:799px){#head-vote h1{font-size:32px;font-weight:700;text-transform:uppercase;}
 #head-vote h3{font-size:15px;text-transform:uppercase;}
 }
-#head-staff{background-image:url("https://i.imgur.com/5k04GaP.png");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
+#head-staff{background-image:url("../../home.gif");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
 @media screen and (min-width:800px){#head-staff h1{font-size:55px;font-weight:700;text-transform:uppercase;}
 #head-staff h3{font-size:22px;text-transform:uppercase;}
 }
 @media screen and (max-width:799px){#head-staff h1{font-size:32px;font-weight:700;text-transform:uppercase;}
 #head-staff h3{font-size:15px;text-transform:uppercase;}
 }
-#head-status{background-image:url("https://i.imgur.com/MljFIMA.png");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
+#head-status{background-image:url("../../home.gif");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
 @media screen and (min-width:800px){#head-status h1{font-size:55px;font-weight:700;text-transform:uppercase;}
 #head-status h3{font-size:22px;text-transform:uppercase;}
 }
 @media screen and (max-width:799px){#head-status h1{font-size:32px;font-weight:700;text-transform:uppercase;}
 #head-status h3{font-size:15px;text-transform:uppercase;}
 }
-#head-store{background-image:url("https://i.imgur.com/Y3EHRzO.png");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
+#head-store{background-image:url("../../home.gif");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
 @media screen and (min-width:800px){#head-store h1{font-size:55px;font-weight:700;text-transform:uppercase;}
 #head-store h3{font-size:22px;text-transform:uppercase;}
 }
 @media screen and (max-width:799px){#head-store h1{font-size:32px;font-weight:700;text-transform:uppercase;}
 #head-store h3{font-size:15px;text-transform:uppercase;}
 }
-#head-example{background-image:url("https://i.imgur.com/BPhVPkl.png");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
+#head-example{background-image:url("../../home.gif");margin:0;padding:222px 0px 222px 0px;text-align:center;color:white;}
 @media screen and (min-width:800px){#head-example h1{font-size:55px;font-weight:700;text-transform:uppercase;}
 #head-example h3{font-size:22px;text-transform:uppercase;}
 }
